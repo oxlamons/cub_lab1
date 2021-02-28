@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-Pod
+  name: nginx-pod
   labels:
     app: nginx
 spec:
-  comtainers:
+  containers:
   - name: nginx
     image: oxlamons/nginx
